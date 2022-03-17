@@ -6,5 +6,5 @@ import retrofit2.http.Query;
 
 public interface ApiInterface {
     @GET("posts/{id}")
-    Call<ModelClass> getData(@Query("id") int id);
+    Call<AdapterMc> getData(@Query("id") int id);
 }
